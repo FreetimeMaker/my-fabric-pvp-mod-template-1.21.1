@@ -3,15 +3,14 @@
 	"id": "my-fabric-pvp-mod",
 	"version": "${version}",
 	"name": "My Fabric PVP Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is my first PVP Mod for Fabric!",
 	"authors": [
-		"Me!"
+		"Freetime Maker"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/FreetimeMaker/my-fabric-pvp-mod-template-1.21.1"
 	},
-	"license": "CC0-1.0",
+	"license": "All Rights Reserved",
 	"icon": "assets/my-fabric-pvp-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +19,9 @@
 		],
 		"fabric-datagen": [
 			"com.freetime.MyFabricPVPModDataGenerator"
+		],
+		"client": [
+			"com.freetime.MyFabricPVPModClient"
 		]
 	},
 	"mixins": [
