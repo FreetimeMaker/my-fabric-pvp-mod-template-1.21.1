@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "my-fabric-pvp-mod:item/pvp_mod_group_icon"
+  }
+}
