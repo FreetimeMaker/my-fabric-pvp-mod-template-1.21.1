@@ -19,6 +19,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                       entries.add(ModItems.POWERFUL_STICK);
                       entries.add(ModItems.BLOOD_INGOT);
+                      entries.add(ModItems.RAW_BLOOD);
                       entries.add(ModBlocks.BLOOD_BLOCK);
                     }).build());
 

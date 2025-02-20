@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "pvp_mod_group",
+  "ingredient": {
+    "item": "my-fabric-pvp-mod:raw_blood"
+  },
+  "result": {
+    "id": "my-fabric-pvp-mod:blood_ingot"
+  }
+}
