@@ -1,3 +1,6 @@
 {
-  "item.my-fabric-pvp-mod.powerful_stick": "Powerful Stick"
+  "item.my-fabric-pvp-mod.powerful_stick": "Powerful Stick",
+  "item.my-fabric-pvp-mod.blood_ingot": "Blood Ingot",
+
+  "block.my-fabric-pvp-mod.blood_block": "Block Full of Blood"
 }

@@ -1,5 +1,7 @@
 package com.freetime;
 
+import com.freetime.block.ModBlocks;
+import com.freetime.creative_tab.ModItemGroups;
 import com.freetime.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +14,9 @@ public class MyFabricPVPMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

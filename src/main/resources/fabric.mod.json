@@ -31,7 +31,12 @@
 		"fabricloader": ">=0.16.10",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"jei": ">=19.21.0.247",
+		"jade": ">=15.9.2",
+		"modmenu": ">=11.0.3",
+		"armor-hud": "v8-1.21.1-fabric",
+		"durabilitytooltip": "1.1.5"
 	},
 	"suggests": {
 		"another-mod": "*"

@@ -11,6 +11,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item POWERFUL_STICK = registerItem("powerful_stick", new Item(new Item.Settings()));
+    public static final Item BLOOD_INGOT = registerItem("blood_ingot", new Item(new Item.Settings()));
+    public static final Item PVP_MOD_GROUP_ICON = registerItem("pvp_mod_group_icon", new Item(new Item.Settings()));
 
 
     public static Item registerItem(String name, Item item) {
@@ -19,9 +21,5 @@ public class ModItems {
 
     public static void registerModItems() {
         MyFabricPVPMod.LOGGER.info("Registering Mod Items for " + MyFabricPVPMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(POWERFUL_STICK);
-        });
     }
 }
