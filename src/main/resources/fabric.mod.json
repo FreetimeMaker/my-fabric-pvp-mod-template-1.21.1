@@ -34,9 +34,7 @@
 		"fabric-api": "*",
 		"jei": ">=19.21.0.247",
 		"jade": ">=15.9.2",
-		"modmenu": ">=11.0.3",
-		"armor-hud": "v8-1.21.1-fabric",
-		"durabilitytooltip": "1.1.5"
+		"modmenu": ">=11.0.3"
 	},
 	"suggests": {
 		"another-mod": "*"
