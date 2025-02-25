@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block BLOOD_BLOCK = registerBlock("blood_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.SLIME)));
+                    .requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
