@@ -2,12 +2,10 @@
   "item.my-fabric-pvp-mod.powerful_stick": "Powerful Stick",
   "item.my-fabric-pvp-mod.blood_ingot": "Blood Ingot",
   "item.my-fabric-pvp-mod.raw_blood_ingot": "Raw Blood Ingot",
-
+  "item.my-fabric-pvp-mod.blood": "Blood",
   "block.my-fabric-pvp-mod.blood_block": "Block Full of Blood",
   "block.my-fabric-pvp-mod.raw_blood_block": "Block Full of Raw Blood",
-
   "block.my-fabric-pvp-mod.blood_ore": "Blood Ore",
   "block.my-fabric-pvp-mod.blood_deepslate_ore": "Blood Deesplate Ore",
-
   "itemgroup.my-fabric-pvp-mod.pvp-mod": "My Fabric PVP Mod Group"
 }

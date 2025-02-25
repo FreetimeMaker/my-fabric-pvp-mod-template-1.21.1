@@ -17,9 +17,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PVP_MOD_GROUP_ICON))
                     .displayName(Text.translatable("itemgroup.my-fabric-pvp-mod.pvp_mod"))
                     .entries((displayContext, entries) -> {
-                      entries.add(ModItems.POWERFUL_STICK);
                       entries.add(ModItems.BLOOD_INGOT);
                       entries.add(ModItems.RAW_BLOOD_INGOT);
+                      entries.add(ModItems.BLOOD);
                       entries.add(ModBlocks.BLOOD_BLOCK);
                       entries.add(ModBlocks.RAW_BLOOD_BLOCK);
                       entries.add(ModBlocks.BLOOD_ORE);
