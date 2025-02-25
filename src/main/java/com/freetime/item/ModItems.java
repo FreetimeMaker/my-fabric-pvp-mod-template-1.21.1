@@ -10,7 +10,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item POWERFUL_STICK = registerItem("powerful_stick", new Item(new Item.Settings()));
     public static final Item BLOOD_INGOT = registerItem("blood_ingot", new Item(new Item.Settings()));
     public static final Item RAW_BLOOD_INGOT = registerItem("raw_blood_ingot", new Item(new Item.Settings()));
     public static final Item PVP_MOD_GROUP_ICON = registerItem("pvp_mod_group_icon", new Item(new Item.Settings()));
