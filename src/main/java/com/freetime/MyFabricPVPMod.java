@@ -4,7 +4,6 @@ import com.freetime.block.ModBlocks;
 import com.freetime.creative_tab.ModItemGroups;
 import com.freetime.item.ModItems;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.registry;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,8 +15,8 @@ public class MyFabricPVPMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		FuelRegistry.INSTANCE.add(ModItems.BLOOD_FUEL, 680);
 	}
 }
