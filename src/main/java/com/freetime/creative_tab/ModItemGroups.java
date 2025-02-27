@@ -20,6 +20,7 @@ public class ModItemGroups {
                       entries.add(ModItems.BLOOD_INGOT);
                       entries.add(ModItems.RAW_BLOOD_INGOT);
                       entries.add(ModItems.BLOOD);
+                      entries.add(ModItems.RAW_BLOOD);
                       entries.add(ModBlocks.BLOOD_BLOCK);
                       entries.add(ModBlocks.RAW_BLOOD_BLOCK);
                       entries.add(ModBlocks.BLOOD_ORE);
