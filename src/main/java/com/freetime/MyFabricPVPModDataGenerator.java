@@ -1,5 +1,7 @@
 package com.freetime;
 
+import com.freetime.datagen.ModLootTableProvider;
+import com.freetime.datagen.ModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -8,5 +10,7 @@ public class MyFabricPVPModDataGenerator implements DataGeneratorEntrypoint {
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 			FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
+			pack.addProvider(ModLootTableProvider::new);
+			pack.addProvider(ModModelProvider::new);
 	}
 }
