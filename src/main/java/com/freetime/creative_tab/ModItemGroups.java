@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup PVP_MOD_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(MyFabricPVPMod.MOD_ID, "pvp_mod_group_icon.json"),
+            Identifier.of(MyFabricPVPMod.MOD_ID, "pvp_mod_group_icon"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PVP_MOD_GROUP_ICON))
                     .displayName(Text.translatable("itemgroup.my-fabric-pvp-mod.pvp_mod"))
                     .entries((displayContext, entries) -> {
