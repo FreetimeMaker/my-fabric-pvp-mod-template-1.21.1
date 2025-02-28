@@ -8,6 +8,7 @@
 		"Freetime Maker"
 	],
 	"contact": {
+		"website": "https://freetimemaker.github.io/",
 		"sources": "https://github.com/FreetimeMaker/my-fabric-pvp-mod-template-1.21.1"
 	},
 	"license": "All Rights Reserved",
