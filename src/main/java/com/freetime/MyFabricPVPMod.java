@@ -18,6 +18,6 @@ public class MyFabricPVPMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		FuelRegistry
+		FuelRegistry.INSTANCE.add(ModItems.BLOOD_FUEL, 680);
 	}
 }
