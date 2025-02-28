@@ -9,5 +9,13 @@
   "block.my-fabric-pvp-mod.raw_blood_block": "Block Full of Raw Blood",
   "block.my-fabric-pvp-mod.blood_ore": "Blood Ore",
   "block.my-fabric-pvp-mod.blood_deepslate_ore": "Blood Deesplate Ore",
+  "block.my-fabric-pvp-mod.blood_stairs": "Blood Stairs",
+  "block.my-fabric-pvp-mod.blood_slab": "Blood Slab",
+  "block.my-fabric-pvp-mod.blood_wall": "Blood Wall",
+  "block.my-fabric-pvp-mod.blood_fence": "Blood Fence",
+  "block.my-fabric-pvp-mod.blood_pressure_plate": "Blood Pressure Plate",
+  "block.my-fabric-pvp-mod.blood_button": "Blood Button",
+  "block.my-fabric-pvp-mod.blood_trapdoor": "Blood Trapdoor",
+  "block.my-fabric-pvp-mod.blood_door": "Blood Door",
   "itemgroup.my-fabric-pvp-mod.pvp-mod": "My Fabric PVP Mod Group"
 }

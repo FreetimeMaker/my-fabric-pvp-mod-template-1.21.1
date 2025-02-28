@@ -26,6 +26,15 @@ public class ModItemGroups {
                       entries.add(ModBlocks.RAW_BLOOD_BLOCK);
                       entries.add(ModBlocks.BLOOD_ORE);
                       entries.add(ModBlocks.BLOOD_DEEPSLATE_ORE);
+                      entries.add(ModBlocks.BLOOD_STAIRS);
+                      entries.add(ModBlocks.BLOOD_SLAB);
+                      entries.add(ModBlocks.BLOOD_BUTTON);
+                      entries.add(ModBlocks.BLOOD_PRESSURE_PLATE);
+                      entries.add(ModBlocks.BLOOD_FENCE);
+                      entries.add(ModBlocks.BLOOD_FENCE_GATE);
+                      entries.add(ModBlocks.BLOOD_WALL);
+                      entries.add(ModBlocks.BLOOD_DOOR);
+                      entries.add(ModBlocks.BLOOD_TRAPDOOR);
                     }).build());
 
 
