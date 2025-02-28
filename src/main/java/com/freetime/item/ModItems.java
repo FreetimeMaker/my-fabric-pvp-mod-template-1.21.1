@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item PVP_MOD_GROUP_ICON = registerItem("pvp_mod_group_icon", new Item(new Item.Settings()));
     public static final Item BLOOD = registerItem("blood", new Item(new Item.Settings().food(ModFoodComponents.BLOOD)));
     public static final Item RAW_BLOOD = registerItem("raw_blood", new Item(new Item.Settings().food(ModFoodComponents.RAW_BLOOD)));
+    public static final Item BLOOD_FUEL = registerItem("blood_fuel", new Item(new Item.Settings()));
 
 
     public static Item registerItem(String name, Item item) {
