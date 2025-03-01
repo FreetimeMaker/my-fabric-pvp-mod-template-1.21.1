@@ -11,16 +11,9 @@ base {
 }
 
 repositories {
-	// Add repositories to retrieve artifacts from in here.
-	// You should only use this when depending on other mods because
-	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
-	// for more information about repositories.
-}
-
-fabricApi {
-	configureDataGeneration {
-		client = true
+	mavenCentral()
+	maven {
+		url = 'https://maven.fabricmc.net/'
 	}
 }
 
@@ -32,7 +25,16 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	
+
+	// Weitere Abhängigkeiten hier hinzufügen
+	implementation 'net.fabricmc:dev-launch-injector:0.2.1+build.8'
+	implementation 'net.fabricmc:dev-launch-injector:0.2.1+build.8:sources'
+}
+
+fabricApi {
+	configureDataGeneration {
+		client = true
+	}
 }
 
 processResources {
@@ -59,7 +61,7 @@ java {
 
 jar {
 	from("LICENSE") {
-		rename { "${it}_${project.base.archivesName.get()}"}
+		rename { "${it}_${project.base.archivesName.get()}" }
 	}
 }
 
