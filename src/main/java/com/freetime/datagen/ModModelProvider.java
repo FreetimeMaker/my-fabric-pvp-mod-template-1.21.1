@@ -20,6 +20,15 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_BLOOD_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOD_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOD_DEEPSLATE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOD_STAIRS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOD_SLAB);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOD_BUTTON);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOD_PRESSURE_PLATE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOD_FENCE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOD_FENCE_GATE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOD_WALL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOD_DOOR);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOD_TRAPDOOR);
     }
 
     @Override
