@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 900,
+  "experience": 1.8,
+  "group": "pink_garnet",
+  "ingredient": {
+    "item": "my-fabric-pvp-mod:raw_blood_block"
+  },
+  "result": {
+    "id": "my-fabric-pvp-mod:blood_block"
+  }
+}
