@@ -18,9 +18,6 @@
 		"main": [
 			"com.freetime.MyFabricPVPMod"
 		],
-		"fabric-datagen": [
-			"com.freetime.MyFabricPVPModDataGenerator"
-		],
 		"client": [
 			"com.freetime.MyFabricPVPModClient"
 		]
