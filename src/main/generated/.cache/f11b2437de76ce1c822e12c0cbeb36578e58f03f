@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-11T13:41:30.4068049	My Fabric PVP Mod/Model Definitions
+// 1.21.1	2025-03-11T14:18:34.8186104	My Fabric PVP Mod/Model Definitions
 4025a14dbc072a9c2cccbbb4ed57ff7a1e200309 assets\my-fabric-pvp-mod\blockstates\blood_wall.json
 ff51a2e9da6d59934323affa7c00c0b20c90c0a4 assets\my-fabric-pvp-mod\models\item\blood_trapdoor.json
 e8e2114b2cfc25f5ecab280d453922d5e895b12f assets\my-fabric-pvp-mod\blockstates\raw_blood_block.json
@@ -17,6 +17,7 @@ a37944b54cb2e52b1d8458dbeed84417b541fe94 assets\my-fabric-pvp-mod\models\block\b
 a7dc455abb07583344861fc99c8603d225024274 assets\my-fabric-pvp-mod\models\block\blood_trapdoor_bottom.json
 80d0222184a53e4724f850f292690b12c54063aa assets\my-fabric-pvp-mod\models\item\blood_button.json
 4317d32278c455fa1c021585e49daadfb3328834 assets\my-fabric-pvp-mod\models\item\blood_pressure_plate.json
+52c4837f9bebd7e7d1a2d8f4d24a0be11c84519b assets\my-fabric-pvp-mod\models\item\pvp_mod_group_icon.json
 978d371ca128efeeb0403c3767e358ef343682b7 assets\my-fabric-pvp-mod\models\block\blood_fence_gate_open.json
 1046c0796962e64de3d04323b539a82a2d7aa95a assets\my-fabric-pvp-mod\models\block\blood_wall_post.json
 569e4f80b3bcf32208e13007d9ac9a34a21c648c assets\my-fabric-pvp-mod\models\item\blood_stairs.json
