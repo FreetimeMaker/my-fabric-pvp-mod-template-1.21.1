@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "my-fabric-pvp-mod:block/blood_block"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "my-fabric-pvp-mod:block/blood_deepslate_ore"
+  }
+}

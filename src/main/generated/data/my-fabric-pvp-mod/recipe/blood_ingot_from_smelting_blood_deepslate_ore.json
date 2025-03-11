@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "pink_garnet",
+  "ingredient": {
+    "item": "my-fabric-pvp-mod:blood_deepslate_ore"
+  },
+  "result": {
+    "id": "my-fabric-pvp-mod:blood_ingot"
+  }
+}

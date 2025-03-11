@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "my-fabric-pvp-mod:block/blood_block"
+  }
+}

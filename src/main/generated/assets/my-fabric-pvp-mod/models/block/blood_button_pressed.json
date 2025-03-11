@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "my-fabric-pvp-mod:block/blood_block"
+  }
+}

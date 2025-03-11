@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "my-fabric-pvp-mod:block/blood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "my-fabric-pvp-mod:block/blood_pressure_plate_down"
+    }
+  }
+}

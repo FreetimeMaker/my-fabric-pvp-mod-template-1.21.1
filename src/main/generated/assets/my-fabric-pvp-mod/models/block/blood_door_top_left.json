@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "my-fabric-pvp-mod:block/blood_door_bottom",
+    "top": "my-fabric-pvp-mod:block/blood_door_top"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blood_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "my-fabric-pvp-mod:blood_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:blood_ingot_from_smelting_blood_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blood_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blood_ingot_from_smelting_blood_ore"
+    ]
+  }
+}

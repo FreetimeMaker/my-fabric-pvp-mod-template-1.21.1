@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "my-fabric-pvp-mod:block/blood_block",
+    "side": "my-fabric-pvp-mod:block/blood_block",
+    "top": "my-fabric-pvp-mod:block/blood_block"
+  }
+}
