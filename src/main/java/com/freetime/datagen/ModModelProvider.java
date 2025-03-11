@@ -35,5 +35,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BLOOD, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_BLOOD, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLOOD_FUEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PVP_MOD_GROUP_ICON, Models.GENERATED);
     }
 }
