@@ -35,6 +35,7 @@ public class ModItemGroups {
                       entries.add(ModBlocks.BLOOD_WALL);
                       entries.add(ModBlocks.BLOOD_DOOR);
                       entries.add(ModBlocks.BLOOD_TRAPDOOR);
+                      entries.add(ModBlocks.BLOOD_LAMP);
                     }).build());
 
 

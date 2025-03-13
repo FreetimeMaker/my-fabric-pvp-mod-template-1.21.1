@@ -1,6 +1,7 @@
 package com.freetime.block;
 
 import com.freetime.MyFabricPVPMod;
+import com.freetime.block.custom.BloodLampBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -43,6 +44,9 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
     public static final Block BLOOD_TRAPDOOR = registerBlock("blood_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+    public static final Block BLOOD_LAMP = registerBlock("blood_lamp",
+            new BloodLampBlock(AbstractBlock.Settings.create()
+                    .strength(1).requiresTool().luminance(state -> state.get(BloodLampBlock.CLICKED) ? 15 : 0)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

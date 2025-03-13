@@ -1,10 +1,12 @@
 package com.freetime.datagen;
 
+import com.freetime.block.custom.BloodLampBlock;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import com.freetime.block.ModBlocks;
 import com.freetime.item.ModItems;
 import net.minecraft.data.client.*;
+import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -26,6 +28,10 @@ public class ModModelProvider extends FabricModelProvider {
         bloodPool.wall(ModBlocks.BLOOD_WALL);
         blockStateModelGenerator.registerDoor(ModBlocks.BLOOD_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.BLOOD_TRAPDOOR);
+        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.BLOOD_LAMP, blockStateModelGenerator.modelCollector);
+        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.BLOOD_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.BLOOD_LAMP)
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(BloodLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
     }
 
     @Override

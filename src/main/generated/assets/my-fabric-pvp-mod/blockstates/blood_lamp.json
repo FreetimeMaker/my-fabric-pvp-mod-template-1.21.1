@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "my-fabric-pvp-mod:block/blood_lamp"
+    },
+    "clicked=true": {
+      "model": "my-fabric-pvp-mod:block/blood_lamp_on"
+    }
+  }
+}
