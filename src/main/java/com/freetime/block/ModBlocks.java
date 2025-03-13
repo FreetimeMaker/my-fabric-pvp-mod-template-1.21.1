@@ -41,9 +41,9 @@ public class ModBlocks {
     public static final Block BLOOD_WALL = registerBlock("blood_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
     public static final Block BLOOD_DOOR = registerBlock("blood_door",
-            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
     public static final Block BLOOD_TRAPDOOR = registerBlock("blood_trapdoor",
-            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
     public static final Block BLOOD_LAMP = registerBlock("blood_lamp",
             new BloodLampBlock(AbstractBlock.Settings.create()
                     .strength(1).requiresTool().luminance(state -> state.get(BloodLampBlock.CLICKED) ? 15 : 0)));
