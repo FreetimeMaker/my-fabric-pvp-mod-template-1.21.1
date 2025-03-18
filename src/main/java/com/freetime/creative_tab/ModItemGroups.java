@@ -22,6 +22,12 @@ public class ModItemGroups {
                       entries.add(ModItems.BLOOD);
                       entries.add(ModItems.RAW_BLOOD);
                       entries.add(ModItems.BLOOD_FUEL);
+                      entries.add(ModItems.BLOOD_STICK);
+                      entries.add(ModItems.BLOOD_SWORD);
+                      entries.add(ModItems.BLOOD_PICKAXE);
+                      entries.add(ModItems.BLOOD_AXE);
+                      entries.add(ModItems.BLOOD_SHOVEL);
+                      entries.add(ModItems.BLOOD_HOE);
                       entries.add(ModBlocks.BLOOD_BLOCK);
                       entries.add(ModBlocks.RAW_BLOOD_BLOCK);
                       entries.add(ModBlocks.BLOOD_ORE);

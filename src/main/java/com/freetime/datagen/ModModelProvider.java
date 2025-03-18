@@ -42,5 +42,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_BLOOD, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLOOD_FUEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.PVP_MOD_GROUP_ICON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLOOD_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BLOOD_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BLOOD_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BLOOD_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BLOOD_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BLOOD_STICK, Models.HANDHELD);
     }
 }
