@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-13T14:42:24.7135057	My Fabric PVP Mod/Model Definitions
+// 1.21.1	2025-03-18T14:43:03.4947668	My Fabric PVP Mod/Model Definitions
 4025a14dbc072a9c2cccbbb4ed57ff7a1e200309 assets\my-fabric-pvp-mod\blockstates\blood_wall.json
 ff51a2e9da6d59934323affa7c00c0b20c90c0a4 assets\my-fabric-pvp-mod\models\item\blood_trapdoor.json
 e8e2114b2cfc25f5ecab280d453922d5e895b12f assets\my-fabric-pvp-mod\blockstates\raw_blood_block.json
@@ -27,6 +27,7 @@ a7dc455abb07583344861fc99c8603d225024274 assets\my-fabric-pvp-mod\models\block\b
 042a3bd53a6d49548e78f7727b9e012822f29ec1 assets\my-fabric-pvp-mod\models\block\blood_wall_side_tall.json
 275215bf30eac2d581c0c277f84b3b688be64b73 assets\my-fabric-pvp-mod\models\block\blood_slab_top.json
 ee88201b6fee0205a87ab13493e328eede7d7a8d assets\my-fabric-pvp-mod\blockstates\blood_slab.json
+b4480ddb6c723cc63be7003816c51ae458de2646 assets\my-fabric-pvp-mod\models\item\blood_pickaxe.json
 9cc6c88522bb214bb15f1b253025269859ba06a0 assets\my-fabric-pvp-mod\models\item\blood_deepslate_ore.json
 6e821d073e94ced98387cea901067349dc755ed8 assets\my-fabric-pvp-mod\models\block\blood_pressure_plate_down.json
 83ec8f97756fc3447e9773d27b0ad3b9eb53fee3 assets\my-fabric-pvp-mod\models\item\blood_ore.json
@@ -37,6 +38,7 @@ fd3b9a06873d53d08a15e591acf3bc88879aca16 assets\my-fabric-pvp-mod\models\block\b
 5ec6f385f3edde9b63fc2b42bfa01b6358321d95 assets\my-fabric-pvp-mod\models\block\raw_blood_block.json
 4f2dbbfe13ee21c30e4b22789b3ddb6cb0f10eea assets\my-fabric-pvp-mod\models\block\blood_fence_inventory.json
 f77554f928d82c8a115a7021c7da2ce8c9676d23 assets\my-fabric-pvp-mod\blockstates\blood_block.json
+721e75df53191a3d3354dacf049d2d54ac557cc1 assets\my-fabric-pvp-mod\models\item\blood_axe.json
 e5cee13f92d03cc0bd94560274355f8549bdda71 assets\my-fabric-pvp-mod\models\item\blood_wall.json
 93ce4cf845a22252effe2b84b7dc52d6c5b334c8 assets\my-fabric-pvp-mod\blockstates\blood_fence.json
 c670e72b1ccace6f40a61d66a4ce72ec5984760a assets\my-fabric-pvp-mod\blockstates\blood_button.json
@@ -50,8 +52,10 @@ b662eea81ce8c533075d67e5f8408aaf62474bf4 assets\my-fabric-pvp-mod\models\item\bl
 427324980a1894b245056664053d9182132aa959 assets\my-fabric-pvp-mod\models\block\blood_door_bottom_right.json
 9c3ff254d1a5461f5641bdad0a83070fa71173a6 assets\my-fabric-pvp-mod\blockstates\blood_ore.json
 c4891bb963be730ad046867a330080338ad6ba55 assets\my-fabric-pvp-mod\models\item\raw_blood_block.json
+b579bd9e8f2de019c93d59f7cb8e5c00027a882b assets\my-fabric-pvp-mod\models\item\blood_sword.json
 92a017f36e16070888c9b11fa8e63a33976557dc assets\my-fabric-pvp-mod\models\item\blood_fence.json
 5866fd1fe2070439dd6672f39b312a8bd117f9c3 assets\my-fabric-pvp-mod\models\block\blood_button_inventory.json
+e927571483f53d992785e987a644baeb324f4d80 assets\my-fabric-pvp-mod\models\item\blood_hoe.json
 f383cc64becca5ee81c0eb1b0fa339d06ac620e0 assets\my-fabric-pvp-mod\models\block\blood_stairs.json
 3c12543ffbd95c8b04d5f146c7d3a254bb2bbf6f assets\my-fabric-pvp-mod\models\item\blood_fence_gate.json
 5dfbc61e7cfa739b081ae76de547d00a1be2436d assets\my-fabric-pvp-mod\models\block\blood_pressure_plate.json
@@ -67,7 +71,9 @@ c4d4905c031df74fdd776b42f0c0a8f0cdf02301 assets\my-fabric-pvp-mod\blockstates\bl
 b9865789b0f9cc5543a3deb3794871a6f2094be8 assets\my-fabric-pvp-mod\blockstates\blood_deepslate_ore.json
 51dbf4fc5d57e75799c67c70b6013e285c337c34 assets\my-fabric-pvp-mod\models\block\blood_slab.json
 07df88e2ce387c62ddbc0924e9a3fda179443968 assets\my-fabric-pvp-mod\models\block\blood_door_bottom_right_open.json
+6dffa7ac4b051585e4a7c75cce21fb625a90c6cf assets\my-fabric-pvp-mod\models\item\blood_shovel.json
 4064d6fa846098413982c052f751eaca0e1f89c9 assets\my-fabric-pvp-mod\models\block\blood_button_pressed.json
 4339434488c334733132c8a6ac75da05e8e9eb0c assets\my-fabric-pvp-mod\models\block\blood_fence_gate_wall.json
+552c12bb7b25e7097668fe14e2f15e4f5814e529 assets\my-fabric-pvp-mod\models\item\blood_stick.json
 9c40ecd3cdf70dbe029af690e7824c33d8258e51 assets\my-fabric-pvp-mod\models\block\blood_fence_post.json
 7520e13a51564b9bbaca98fbb6fa8ddda2ec6b89 assets\my-fabric-pvp-mod\models\item\blood_door.json
