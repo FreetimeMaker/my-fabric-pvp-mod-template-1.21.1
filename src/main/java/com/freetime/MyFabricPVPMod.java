@@ -1,6 +1,7 @@
 package com.freetime;
 
 import com.freetime.block.ModBlocks;
+import com.freetime.component.ModDataComponentTypes;
 import com.freetime.creative_tab.ModItemGroups;
 import com.freetime.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -18,6 +19,7 @@ public class MyFabricPVPMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModDataComponentTypes.registerDataComponentTypes();
 		FuelRegistry.INSTANCE.add(ModItems.BLOOD_FUEL, 680);
 	}
 }
