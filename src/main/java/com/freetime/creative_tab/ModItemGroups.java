@@ -15,7 +15,7 @@ public class ModItemGroups {
     public static final ItemGroup PVP_MOD_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(MyFabricPVPMod.MOD_ID, "pvp_mod_group_icon"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PVP_MOD_GROUP_ICON))
-                    .displayName(Text.translatable("itemgroup.my-fabric-pvp-mod.pvp_mod"))
+                    .displayName(Text.translatable("My Fabric PVP Mod"))
                     .entries((displayContext, entries) -> {
                       entries.add(ModItems.BLOOD_INGOT);
                       entries.add(ModItems.RAW_BLOOD_INGOT);
@@ -28,6 +28,7 @@ public class ModItemGroups {
                       entries.add(ModItems.BLOOD_AXE);
                       entries.add(ModItems.BLOOD_SHOVEL);
                       entries.add(ModItems.BLOOD_HOE);
+                      entries.add(ModItems.BLOOD_HAMMER);
                       entries.add(ModBlocks.BLOOD_BLOCK);
                       entries.add(ModBlocks.RAW_BLOOD_BLOCK);
                       entries.add(ModBlocks.BLOOD_ORE);

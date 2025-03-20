@@ -1,6 +1,7 @@
 package com.freetime.item;
 
 import com.freetime.MyFabricPVPMod;
+import com.freetime.item.custom.HammerItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
@@ -46,6 +47,9 @@ public class ModItems {
     public static final Item BLOOD_HOE = registerItem("blood_hoe",
             new HoeItem(ModToolMaterials.BLOOD_INGOT, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.BLOOD_INGOT, 0, -3f))));
+    public static final Item BLOOD_HAMMER = registerItem("blood_hammer",
+            new HammerItem(ModToolMaterials.BLOOD_INGOT, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BLOOD_INGOT, 7, -3.4f))));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MyFabricPVPMod.MOD_ID, name), item);

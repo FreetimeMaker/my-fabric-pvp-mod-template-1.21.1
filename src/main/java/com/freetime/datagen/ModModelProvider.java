@@ -48,5 +48,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BLOOD_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BLOOD_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BLOOD_STICK, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BLOOD_HAMMER, Models.HANDHELD);
     }
 }
