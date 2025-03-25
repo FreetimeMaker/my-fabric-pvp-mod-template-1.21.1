@@ -5,6 +5,7 @@ import com.freetime.item.custom.HammerItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -50,6 +51,18 @@ public class ModItems {
     public static final Item BLOOD_HAMMER = registerItem("blood_hammer",
             new HammerItem(ModToolMaterials.BLOOD_INGOT, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BLOOD_INGOT, 7, -3.4f))));
+    public static final Item BLOOD_HELMET = registerItem("blood_helmet",
+            new ArmorItem(ModArmorMaterials.BLOOD_INGOT_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item BLOOD_CHESTPLATE = registerItem("blood_chestplate",
+            new ArmorItem(ModArmorMaterials.BLOOD_INGOT_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item BLOOD_LEGGINGS = registerItem("blood_leggings",
+            new ArmorItem(ModArmorMaterials.BLOOD_INGOT_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BLOOD_BOOTS = registerItem("blood_boots",
+            new ArmorItem(ModArmorMaterials.BLOOD_INGOT_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MyFabricPVPMod.MOD_ID, name), item);

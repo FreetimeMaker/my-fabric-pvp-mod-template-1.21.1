@@ -29,6 +29,10 @@ public class ModItemGroups {
                       entries.add(ModItems.BLOOD_SHOVEL);
                       entries.add(ModItems.BLOOD_HOE);
                       entries.add(ModItems.BLOOD_HAMMER);
+                      entries.add(ModItems.BLOOD_HELMET);
+                      entries.add(ModItems.BLOOD_CHESTPLATE);
+                      entries.add(ModItems.BLOOD_LEGGINGS);
+                      entries.add(ModItems.BLOOD_BOOTS);
                       entries.add(ModBlocks.BLOOD_BLOCK);
                       entries.add(ModBlocks.RAW_BLOOD_BLOCK);
                       entries.add(ModBlocks.BLOOD_ORE);
