@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import com.freetime.block.ModBlocks;
 import com.freetime.item.ModItems;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -49,5 +50,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BLOOD_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BLOOD_STICK, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BLOOD_HAMMER, Models.HANDHELD);
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLOOD_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLOOD_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLOOD_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLOOD_HELMET));
     }
 }

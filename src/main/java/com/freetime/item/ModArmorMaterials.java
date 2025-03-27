@@ -24,7 +24,7 @@ public class ModArmorMaterials {
                 map.put(ArmorItem.Type.HELMET, 2);
                 map.put(ArmorItem.Type.BODY, 4);
             }), 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.BLOOD_INGOT),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(MyFabricPVPMod.MOD_ID, "blood_ingot"))), 0, 0));
+                    List.of(new ArmorMaterial.Layer(Identifier.of(MyFabricPVPMod.MOD_ID, "blood"))), 0, 0));
 
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
