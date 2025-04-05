@@ -63,6 +63,8 @@ public class ModItems {
     public static final Item BLOOD_BOOTS = registerItem("blood_boots",
             new ArmorItem(ModArmorMaterials.BLOOD_INGOT_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+    public static final Item BLOOD_HORSE_ARMOR = registerItem("blood_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.BLOOD_INGOT_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));;
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MyFabricPVPMod.MOD_ID, name), item);

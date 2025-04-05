@@ -1,6 +1,7 @@
 package com.freetime.datagen;
 
 import com.freetime.block.custom.BloodLampBlock;
+import com.terraformersmc.modmenu.util.mod.Mod;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import com.freetime.block.ModBlocks;
@@ -54,5 +55,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLOOD_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLOOD_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.BLOOD_HELMET));
+        itemModelGenerator.register(ModItems.BLOOD_HORSE_ARMOR, Models.GENERATED);
     }
 }
