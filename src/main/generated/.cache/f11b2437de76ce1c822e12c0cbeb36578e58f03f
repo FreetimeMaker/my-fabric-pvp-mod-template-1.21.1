@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-27T14:20:42.4413542	My Fabric PVP Mod/Model Definitions
+// 1.21.1	2025-04-06T13:33:08.1584804	My Fabric PVP Mod/Model Definitions
 4025a14dbc072a9c2cccbbb4ed57ff7a1e200309 assets\my-fabric-pvp-mod\blockstates\blood_wall.json
 e8e2114b2cfc25f5ecab280d453922d5e895b12f assets\my-fabric-pvp-mod\blockstates\raw_blood_block.json
 deecb09bc8fba1510a01219a20557198b8f7b03f assets\my-fabric-pvp-mod\models\block\blood_stairs_outer.json
@@ -81,6 +81,7 @@ a37944b54cb2e52b1d8458dbeed84417b541fe94 assets\my-fabric-pvp-mod\models\block\b
 042a3bd53a6d49548e78f7727b9e012822f29ec1 assets\my-fabric-pvp-mod\models\block\blood_wall_side_tall.json
 ae7e6af99aeb9fefee1389b5ffa8449d3f55d9ab assets\my-fabric-pvp-mod\models\item\blood_boots_amethyst_trim.json
 6e821d073e94ced98387cea901067349dc755ed8 assets\my-fabric-pvp-mod\models\block\blood_pressure_plate_down.json
+24ec44041618157b9fbd5b9b8f1e102f638a9495 assets\my-fabric-pvp-mod\models\item\blood_horse_armor.json
 0e8a00139cdeb5c1bd4d06d02e3c7b2d0f91c101 assets\my-fabric-pvp-mod\models\block\blood_lamp.json
 9c755fea70b103280c6c4af0782c9034f665ba94 assets\my-fabric-pvp-mod\blockstates\blood_trapdoor.json
 5ec6f385f3edde9b63fc2b42bfa01b6358321d95 assets\my-fabric-pvp-mod\models\block\raw_blood_block.json
