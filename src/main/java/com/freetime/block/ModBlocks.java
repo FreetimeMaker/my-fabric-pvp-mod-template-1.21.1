@@ -59,6 +59,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        MyFabricPVPMod.LOGGER.info("Registering Mod Blocks for " + MyFabricPVPMod.MOD_ID);;
+        MyFabricPVPMod.LOGGER.info("Registering Mod Blocks for " + MyFabricPVPMod.MOD_ID);
     }
 }
