@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_inventory",
-  "textures": {
-    "texture": "my-fabric-pvp-mod:block/blood_block"
-  }
-}
