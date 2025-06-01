@@ -2,4 +2,4 @@
 # my-fabric-pvp-mod-template-1.21.1
 This is my First Coded PVP Fabric Mod Ever.
 # My Fabric PVP Mod Wiki
-Visit the Wiki here: [My Fabric PVP Mod Wiki(https://freetimemaker.github.io/my-fabric-pvp-mod-template-1.21.1/]
+Visit the Wiki here: [My Fabric PVP Mod Wiki(https://freetimemaker.github.io/my-fabric-pvp-mod-template-1.21.1/)]
