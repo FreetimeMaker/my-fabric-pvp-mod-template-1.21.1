@@ -7,6 +7,6 @@ This is my First Coded PVP Fabric Mod Ever.
 
 <h1 align="center">
     <a href="https://freetimemaker.github.io/my-fabric-pvp-mod-template-1.21.1/" target="_blank">
-        <img src="images/icon.png" />
+        <img src="images/icon.png"/>
     </a>
 </h1>
