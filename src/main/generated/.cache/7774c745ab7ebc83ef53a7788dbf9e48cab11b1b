@@ -1,7 +1,7 @@
-// 1.21.1	2025-04-06T13:33:08.1544829	My Fabric PVP Mod/Tags for minecraft:block
-32b13946c4cd1f944b029659ccce5fcb2adad4ff data\my-fabric-pvp-mod\tags\block\needs_blood_tool.json
-d747d84e01ec9512e011b686e1b47971070bd7c3 data\minecraft\tags\block\needs_iron_tool.json
-3b2423bb304f1df9c1c625a8d721953e8c5802bc data\minecraft\tags\block\fence_gates.json
-181c3aa259231917462f85a03274f58855169d0c data\minecraft\tags\block\walls.json
-882609c1c1617e06a6df08a8550ab38d52010a31 data\minecraft\tags\block\mineable\pickaxe.json
-52b6da47d887a5f5df4b0a95c0a71e4fa784f631 data\minecraft\tags\block\fences.json
+// 1.21.1	2025-06-26T20:26:21.982208817	My Fabric PVP Mod/Tags for minecraft:block
+52b6da47d887a5f5df4b0a95c0a71e4fa784f631 data/minecraft/tags/block/fences.json
+882609c1c1617e06a6df08a8550ab38d52010a31 data/minecraft/tags/block/mineable/pickaxe.json
+181c3aa259231917462f85a03274f58855169d0c data/minecraft/tags/block/walls.json
+d747d84e01ec9512e011b686e1b47971070bd7c3 data/minecraft/tags/block/needs_iron_tool.json
+3b2423bb304f1df9c1c625a8d721953e8c5802bc data/minecraft/tags/block/fence_gates.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/my-fabric-pvp-mod/tags/block/needs_blood_tool.json
