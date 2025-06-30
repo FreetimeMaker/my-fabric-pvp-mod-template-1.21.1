@@ -34,6 +34,7 @@ public class ModItemGroups {
                       entries.add(ModItems.BLOOD_LEGGINGS);
                       entries.add(ModItems.BLOOD_BOOTS);
                       entries.add(ModItems.BLOOD_HORSE_ARMOR);
+                      entries.add(ModItems.BLOOD_CHISLE);
                       entries.add(ModBlocks.BLOOD_BLOCK);
                       entries.add(ModBlocks.RAW_BLOOD_BLOCK);
                       entries.add(ModBlocks.BLOOD_ORE);

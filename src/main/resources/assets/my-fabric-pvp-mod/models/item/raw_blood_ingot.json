@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/chisel"
+    "layer0": "my-fabric-pvp-mod:item/raw_blood_ingot"
   }
 }
