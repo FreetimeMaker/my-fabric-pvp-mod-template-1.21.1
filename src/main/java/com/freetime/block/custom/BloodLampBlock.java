@@ -31,4 +31,10 @@ public class BloodLampBlock extends Block {
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(CLICKED);
     }
+
+    @Override
+    public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+        tooltip.add(Text.translatable("tooltip.my-fabric-pvp-mod.blood_lamp_block.tooltip"));
+        super.appendTooltip(stack, context, tooltip, options);
+    }
 }

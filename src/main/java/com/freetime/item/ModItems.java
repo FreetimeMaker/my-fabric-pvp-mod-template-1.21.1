@@ -16,8 +16,20 @@ public class ModItems {
     public static final Item BLOOD_INGOT = registerItem("blood_ingot", new Item(new Item.Settings()));
     public static final Item RAW_BLOOD_INGOT = registerItem("raw_blood_ingot", new Item(new Item.Settings()));
     public static final Item PVP_MOD_GROUP_ICON = registerItem("pvp_mod_group_icon", new Item(new Item.Settings()));
-    public static final Item BLOOD = registerItem("blood", new Item(new Item.Settings().food(ModFoodComponents.BLOOD)));
-    public static final Item RAW_BLOOD = registerItem("raw_blood", new Item(new Item.Settings().food(ModFoodComponents.RAW_BLOOD)));
+    public static final Item BLOOD = registerItem("blood", new Item(new Item.Settings().food(ModFoodComponents.BLOOD)) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.my-fabric-pvp-mod.blood.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    });
+    public static final Item RAW_BLOOD = registerItem("raw_blood", new Item(new Item.Settings().food(ModFoodComponents.RAW_BLOOD)) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.my-fabric-pvp-mod.raw_blood.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    });
     public static final Item BLOOD_FUEL = registerItem("blood_fuel", new Item(new Item.Settings()));
     public static final Item BLOOD_CHISLE = registerItem("blood_chisle", new Item(new Item.Settings().maxDamage(32)));
     public static final Item BLOOD_STICK = registerItem("blood_stick", new Item(new Item.Settings()) {

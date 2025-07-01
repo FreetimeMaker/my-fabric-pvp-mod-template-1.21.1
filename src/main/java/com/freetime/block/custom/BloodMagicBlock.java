@@ -1,6 +1,7 @@
 package com.freetime.block.custom;
 
 import com.freetime.item.ModItems;
+import com.freetime.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -36,5 +37,15 @@ public class BloodMagicBlock extends Block {
         }
 
         super.onSteppedOn(world, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack stack) {
+        return stack.isIn(ModTags.Items.TRANSFORMABLE_ITEMS);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
+        tooltip.add(Text.translatable("tooltip.my-fabric-pvp-mod.blood_magic_block.tooltip"));
+        super.appendTooltip(stack, context, tooltip, options);
     }
 }

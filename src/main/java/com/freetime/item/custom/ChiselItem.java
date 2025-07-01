@@ -47,4 +47,15 @@ public class ChiselItem extends Item {
 
         return ActionResult.SUCCESS;
     }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        if(Screen.hasShiftDown()) {
+            tooltip.add(Text.translatable("tooltip.my-fabric-pvp-mod.blood_chisel.shift_down"));
+        } else {
+            tooltip.add(Text.translatable("tooltip.my-fabric-pvp-mod.blood_chisel"));
+        }
+
+        super.appendTooltip(stack, context, tooltip, type);
+    }
 }
