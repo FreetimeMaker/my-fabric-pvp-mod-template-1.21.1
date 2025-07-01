@@ -2,6 +2,8 @@ package com.freetime.block;
 
 import com.freetime.MyFabricPVPMod;
 import com.freetime.block.custom.BloodLampBlock;
+import com.freetime.block.custom.BloodMagicBlock;
+
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -10,7 +12,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
-import net.minecraft.block.PressurePlateBlock;
 
 public class ModBlocks {
     public static final Block BLOOD_BLOCK = registerBlock("blood_block",
@@ -47,6 +48,8 @@ public class ModBlocks {
     public static final Block BLOOD_LAMP = registerBlock("blood_lamp",
             new BloodLampBlock(AbstractBlock.Settings.create()
                     .strength(1).requiresTool().luminance(state -> state.get(BloodLampBlock.CLICKED) ? 15 : 0)));
+    public static final Block BLOOD_MAGIC_BLOCK = registerBlock("blood_magic_block",
+            new BloodMagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

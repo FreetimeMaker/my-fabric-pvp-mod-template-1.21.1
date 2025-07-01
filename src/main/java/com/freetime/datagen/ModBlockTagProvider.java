@@ -3,7 +3,6 @@ package com.freetime.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import com.freetime.block.ModBlocks;
-import com.freetime.util.ModTags;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 
@@ -20,7 +19,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLOOD_BLOCK)
                 .add(ModBlocks.RAW_BLOOD_BLOCK)
                 .add(ModBlocks.BLOOD_ORE)
-                .add(ModBlocks.BLOOD_DEEPSLATE_ORE);
+                .add(ModBlocks.BLOOD_DEEPSLATE_ORE)
+                .add(ModBlocks.BLOOD_MAGIC_BLOCK)
+                .add(ModBlocks.BLOOD_LAMP);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BLOOD_DEEPSLATE_ORE, ModBlocks.BLOOD_ORE);
@@ -29,7 +30,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.BLOOD_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.BLOOD_WALL);
 
-        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_IRON_TOOL)
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .addTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }

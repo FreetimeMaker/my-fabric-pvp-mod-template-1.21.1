@@ -26,21 +26,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        RegistryWrapper.Impl<Enchantment> impl = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
-
         addDrop(ModBlocks.BLOOD_BLOCK);
         addDrop(ModBlocks.RAW_BLOOD_BLOCK);
+        addDrop(ModBlocks.BLOOD_MAGIC_BLOCK);
+
         addDrop(ModBlocks.BLOOD_ORE, oreDrops(ModBlocks.BLOOD_ORE, ModItems.RAW_BLOOD_INGOT));
         addDrop(ModBlocks.BLOOD_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.BLOOD_DEEPSLATE_ORE, ModItems.RAW_BLOOD_INGOT, 3, 7));
-        addDrop(ModBlocks.BLOOD_STAIRS);
-        addDrop(ModBlocks.BLOOD_SLAB, slabDrops(ModBlocks.BLOOD_SLAB));
-        addDrop(ModBlocks.BLOOD_BUTTON);
-        addDrop(ModBlocks.BLOOD_PRESSURE_PLATE);
-        addDrop(ModBlocks.BLOOD_WALL);
-        addDrop(ModBlocks.BLOOD_FENCE);
-        addDrop(ModBlocks.BLOOD_FENCE_GATE);
-        addDrop(ModBlocks.BLOOD_DOOR, doorDrops(ModBlocks.BLOOD_DOOR));
-        addDrop(ModBlocks.BLOOD_TRAPDOOR);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
