@@ -36,19 +36,11 @@ dependencies {
 	modImplementation "curse.maven:jei-238222:6614390"
 	modImplementation "curse.maven:jade-324717:6291536"
 	modImplementation "curse.maven:modmenu-308702:5810603"
-	modImplementation "curse.maven:durability101-325020:5505044"
-	modImplementation "curse.maven:krypton-428912:5460550"
-	modImplementation "curse.maven:status-effect-bars-615459:5432551"
-	modImplementation "curse.maven:ferritecore-fabric-459857:5850342"
-	modImplementation "curse.maven:durability-tooltip-511040:5550232"
-	modImplementation "curse.maven:supermartijn642s-config-lib-438332:5546988"
-	modImplementation "curse.maven:enchantment-descriptions-250419:6348558"
-	modImplementation "curse.maven:prickle-1023259:6546238"
-	modImplementation "curse.maven:bookshelf-228525:6714478"
 }
 
 processResources {
 	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
 	inputs.property "version", project.version
 
 	filesMatching("fabric.mod.json") {
@@ -70,11 +62,13 @@ java {
 	targetCompatibility = JavaVersion.VERSION_21
 }
 
-jar {
+tasks.named('jar') {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
 	inputs.property "archivesName", project.base.archivesName
 
 	from("LICENSE") {
-		rename { "${it}_${inputs.properties.archivesName}"}
+		rename { "${it}_${inputs.properties.archivesName}" }
 	}
 }
 

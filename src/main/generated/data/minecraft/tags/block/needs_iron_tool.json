@@ -1,6 +1,7 @@
 {
   "values": [
     "my-fabric-pvp-mod:blood_deepslate_ore",
-    "my-fabric-pvp-mod:blood_ore"
+    "my-fabric-pvp-mod:blood_ore",
+    "#minecraft:needs_iron_tool"
   ]
 }

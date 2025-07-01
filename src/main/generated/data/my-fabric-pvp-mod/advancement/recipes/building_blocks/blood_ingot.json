@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:blood_ingot"
+        "recipe": "my-fabric-pvp-mod:blood_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:blood_ingot"
+      "my-fabric-pvp-mod:blood_ingot"
     ]
   }
 }

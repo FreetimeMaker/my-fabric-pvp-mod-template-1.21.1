@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.25,
-  "group": "pink_garnet",
+  "group": "my-fabric-pvp-mod-template",
   "ingredient": {
     "item": "my-fabric-pvp-mod:blood_deepslate_ore"
   },

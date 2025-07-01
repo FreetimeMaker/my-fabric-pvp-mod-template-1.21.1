@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_blood_ingot": {
+    "has_blood_magic_block": {
       "conditions": {
         "items": [
           {
-            "items": "my-fabric-pvp-mod:blood_ingot"
+            "items": "my-fabric-pvp-mod:blood_magic_block"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "my-fabric-pvp-mod:blood_block"
+        "recipe": "my-fabric-pvp-mod:raw_blood_ingot_from_blood_magic_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_blood_ingot"
+      "has_blood_magic_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "my-fabric-pvp-mod:blood_block"
+      "my-fabric-pvp-mod:raw_blood_ingot_from_blood_magic_block"
     ]
   }
 }

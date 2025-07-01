@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "my-fabric-pvp-mod:blood_fence"
+          "name": "my-fabric-pvp-mod:blood_magic_block"
         }
       ],
       "rolls": 1.0

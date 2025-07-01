@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "my-fabric-pvp-mod:blood_magic_block"
+    }
+  ],
+  "result": {
+    "count": 16,
+    "id": "my-fabric-pvp-mod:raw_blood_ingot"
+  }
+}
