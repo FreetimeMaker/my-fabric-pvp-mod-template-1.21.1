@@ -40,7 +40,6 @@ dependencies {
 	modImplementation "curse.maven:krypton-428912:5460550"
 	modImplementation "curse.maven:status-effect-bars-615459:5432551"
 	modImplementation "curse.maven:ferritecore-fabric-459857:5850342"
-	modImplementation "curse.maven:armor-durability-hud-1155218:6224998"
 	modImplementation "curse.maven:durability-tooltip-511040:5550232"
 	modImplementation "curse.maven:supermartijn642s-config-lib-438332:5546988"
 	modImplementation "curse.maven:enchantment-descriptions-250419:6348558"

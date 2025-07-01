@@ -40,7 +40,6 @@
 		"krypton": ">=0.2.8",
 		"status-effect-bars": ">=1.0.6",
 		"ferritecore": ">=7.0.2-hotfix-fabric",
-		"armor-durability-hud": ">=8.1-1.21.1-fabric",
 		"durability-tooltip": ">=1.1.5-fabric-mc1.21",
 		"supermartijn642s-config-lib": ">=1.1.8-fabric-mc1.21",
 		"enchantment-descriptions": ">=1.21.1-21.1.7",
