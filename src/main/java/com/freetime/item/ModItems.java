@@ -2,10 +2,8 @@ package com.freetime.item;
 
 import com.freetime.MyFabricPVPMod;
 import com.freetime.item.custom.HammerItem;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -42,6 +40,7 @@ public class ModItems {
             return true; // Makes the item appear enchanted
         }
 
+        @SuppressWarnings("unchecked")
         @Override
         public ItemStack getDefaultStack() {
             ItemStack stack = super.getDefaultStack();
