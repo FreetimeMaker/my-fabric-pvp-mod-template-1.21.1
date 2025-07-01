@@ -2,6 +2,6 @@
   "replace": false,
   "values": [
     "my-fabric-pvp-mod:raw_blood_block",
-    "my-fabric-pvp-mod:_blood_block"
+    "my-fabric-pvp-mod:blood_block"
   ]
 }
