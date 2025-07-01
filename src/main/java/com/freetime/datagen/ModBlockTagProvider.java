@@ -29,7 +29,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.BLOOD_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.BLOOD_WALL);
 
-        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_BLOOD_TOOL)
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_IRON_TOOL)
                 .addTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }
