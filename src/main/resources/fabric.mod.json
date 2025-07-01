@@ -35,7 +35,17 @@
 		"fabric-api": ">=0.116.3+1.21.1",
 		"jei": ">=19.21.2.313",
 		"jade": ">=15.10.0",
-		"modmenu": ">=11.0.3"
+		"modmenu": ">=11.0.3",
+		"durability101": ">fabric-1.21-0.0.5",
+		"krypton": ">=0.2.8",
+		"status-effect-bars": ">=1.0.6",
+		"ferritecore": ">=7.0.2-hotfix-fabric",
+		"armor-durability-hud": ">=8.1-1.21.1-fabric",
+		"durability-tooltip": ">=1.1.5-fabric-mc1.21",
+		"supermartijn642s-config-lib": ">=1.1.8-fabric-mc1.21",
+		"enchantment-descriptions": ">=1.21.1-21.1.7",
+		"prickle": ">=1.21.1-21.1.8",
+		"bookshelf": ">=1.21.1-21.1.66"
 	},
 	"suggests": {
 		"another-mod": "*"
