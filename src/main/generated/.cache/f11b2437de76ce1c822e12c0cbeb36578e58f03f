@@ -1,4 +1,4 @@
-// 1.21.1	2025-09-25T12:42:39.543115986	My Fabric PVP Mod/Model Definitions
+// 1.21.1	2025-10-17T10:57:32.01300157	My Fabric PVP Mod/Model Definitions
 6eb170c2832e95ad63fa663e7335617ca31177c9 assets/my-fabric-pvp-mod/models/item/blood_helmet_iron_trim.json
 6c54b5900e5b327bb2c0a89988e3b57e5021207f assets/my-fabric-pvp-mod/models/item/blood_helmet_amethyst_trim.json
 83ec8f97756fc3447e9773d27b0ad3b9eb53fee3 assets/my-fabric-pvp-mod/models/item/blood_ore.json
@@ -13,8 +13,8 @@ b579bd9e8f2de019c93d59f7cb8e5c00027a882b assets/my-fabric-pvp-mod/models/item/bl
 4339434488c334733132c8a6ac75da05e8e9eb0c assets/my-fabric-pvp-mod/models/block/blood_fence_gate_wall.json
 040d115eb4e2de6d98f1e88318ed674bc7ace1f8 assets/my-fabric-pvp-mod/models/item/blood_boots_quartz_trim.json
 69d9c90eda5ad0d9af2d774bcf5bf0966d02c7ef assets/my-fabric-pvp-mod/models/item/blood_helmet_emerald_trim.json
-24ec44041618157b9fbd5b9b8f1e102f638a9495 assets/my-fabric-pvp-mod/models/item/blood_horse_armor.json
 c4d4905c031df74fdd776b42f0c0a8f0cdf02301 assets/my-fabric-pvp-mod/blockstates/blood_stairs.json
+24ec44041618157b9fbd5b9b8f1e102f638a9495 assets/my-fabric-pvp-mod/models/item/blood_horse_armor.json
 b4480ddb6c723cc63be7003816c51ae458de2646 assets/my-fabric-pvp-mod/models/item/blood_pickaxe.json
 58446d5d20be3d68dabb2bb5a7eb214b6fcce4ef assets/my-fabric-pvp-mod/models/item/blood_boots_netherite_trim.json
 552c12bb7b25e7097668fe14e2f15e4f5814e529 assets/my-fabric-pvp-mod/models/item/blood_stick.json
@@ -62,8 +62,8 @@ c265c7c983eda23de4310fbbfc777912716147b5 assets/my-fabric-pvp-mod/models/item/bl
 275215bf30eac2d581c0c277f84b3b688be64b73 assets/my-fabric-pvp-mod/models/block/blood_slab_top.json
 deecb09bc8fba1510a01219a20557198b8f7b03f assets/my-fabric-pvp-mod/models/block/blood_stairs_outer.json
 2f88a136b6abe8cd4276d3ae80741d435185bf52 assets/my-fabric-pvp-mod/blockstates/blood_fence_gate.json
-3498dc8785e1e4de60e66d14a2c7e9949ab2898c assets/my-fabric-pvp-mod/blockstates/blood_lamp.json
 ee88201b6fee0205a87ab13493e328eede7d7a8d assets/my-fabric-pvp-mod/blockstates/blood_slab.json
+3498dc8785e1e4de60e66d14a2c7e9949ab2898c assets/my-fabric-pvp-mod/blockstates/blood_lamp.json
 92a017f36e16070888c9b11fa8e63a33976557dc assets/my-fabric-pvp-mod/models/item/blood_fence.json
 a37944b54cb2e52b1d8458dbeed84417b541fe94 assets/my-fabric-pvp-mod/models/block/blood_fence_side.json
 01abe79133041cb7327fdad72f716c5abf3e0759 assets/my-fabric-pvp-mod/models/block/blood_button.json
